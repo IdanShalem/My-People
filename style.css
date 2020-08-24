@@ -1,0 +1,28 @@
+#users {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    justify-self: center;
+}
+
+.user{
+    border: 1px solid blue;
+    box-shadow: 2px 3px rgb(211, 211, 211);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
+    background-color: rgb(173, 173, 173);
+}
+
+.user:hover{
+    background-color: rgb(116, 115, 115);
+}
+.name{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.email{
+    text-decoration: underline;
+    color: blue;
+}
